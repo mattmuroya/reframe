@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Reframing Responsive Design</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bigfoot-default.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script src="assets/js/smoothscroll.js"></script>
+
+    <script type="text/javascript" src="assets/js/bigfoot.js"></script>
+    <script type="text/javascript">
+        var bigfoot = $.bigfoot({
+            positionContent: true
+        });
+    </script>
+
+
+</head>
+
+<body>
+
+    <a id="top"></a>
+
+    <input type="radio" id="open" name="popup">
+    <input type="radio" id="close" name="popup">
+    <label id="menu-toggle" for="open"></label>
+    <nav id="hidden-nav">
+        <ul id="nav-items">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li> 
+        </ul>
+        <label id="close-toggle" for="close"></label>
+    </nav>
+
+    <section id="intro">
+        <div id="intro-item">
+            <div class="device-responsive">
+                <div id="device">
+                    <div id="devicetop"></div>
+                    <div id="screen">
+                        <div id="screen-content">
+                            <h1>reframing responsive design</h1>
+                            <p>how affordances in modern mobile technology revive a fundamental shift in digital information design and delivery.</p>
+                            <p>by <a href="http://mattmuroya.com">matt muroya</a></p>
+                            <a href="#overview" class="smoothScroll">
+                                <div id="arrow"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="button">
+                        <div id="button-square">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="topic" id="overview">
+
+        <div class="content">
+
+            <p>It was less than a decade ago that the only viable, reliable solution for web browsing was a desktop internet browser. But when Apple introduced the iPhone in 2007—a transformative evolution of mediational means for the transmittal of internet communications and information design and delivery—it set the era of smartphones and mobile internet into full swing. New technologies capable of accessing internet in much the same way that a desktop or laptop computer might was groundbreaking for consumers and for web designers/developers. No longer could composers develop solely for the desktop; there was a new field of mediational means by which information was being shared and received.</p>
+
+            <p>Today, smartphones as internet-browsing devices are skyrocketing. In fact, more than 90% of Americans own a cell phone; and of those, nearly two-thirds use their phones to access the internet<a href="#fn:1"></a>. There are hundreds of different devices that people are using to access the internet, and their screen sizes, dimensions, and display characteristics are unpredictable. And therein lies a fundamental problem: no longer can web designers be sure that their websites and content are going to look like they do on their computers; users are coming to the web from unpredictable angles and with unpredictable windows.</p>
+
+            <p>The response to this notable shift in the web design community is a recent development termed Responsive Web Design: the implementation of new front-end web technologies designed to accommodate the non-standardized grab bag selection of devices out there<a href="#fn:4"></a>. Responsive design, based on the implementation of CSS media queries and the development of predetermined content "breakpoints," throws pixel-perfect design and control out the window in favor of visually adaptable, fluid web content that fits whatever screen a user is viewing.</p>
+
+            <p>Responsive design is a development that, for the first time since the commercialization of the web, breaks from traditional design standards that view the web as a digital publishing platform visually reminiscent of print publications. Of course, this necessary transformation is partly in response to the evolution of technology as a means of information retrieval (like the iPhone and mobile devices as we know them today), but it also addresses some deep-seated issues surrounding digital communication that have existed for as long as the public internet itself.</p>
+            
+            <p>As users' needs and expectations evolve, so do standard web design conventions. However, the general trend of responsive design has been slow to take relative to the history of print imitation on the web. It is only recently, following the practical fragmentation of internet-capable viewing device standards, that responsive design has seen standardization that meets commonly understood expectations for mobile accessibility. In the following sections, I will identify the preexisting conditions of exigence as expressed by Håkon W Lie that called for responsive design elements, overturning preexisting notions of control over mediational means; and I will explore the technologicial shift moving past constraints of print and encouraging a mentality that leverages new mobile affordances to address issues of accessibility, web usability, and information design and delivery</p>
+
+        </div>
+    </section>
+
+    <section class="topic" id="overview2">
+
+        <div class="content">
+
+            <h2>Design Evolution: Print Goes Digital</h2>
+
+            <p>In print, the designer is God. Print designers have full control over the layout and presentation of their page; they can be 100% certain that they way they see their printed designs is the way the reader will see it as well. In the early days of the web, table-based layouts played to the commonly accepted and known method of information design and delivery.</p>
+
+            <p>Bradely Dilger wrote on this. When the internet was popularized as a form of information delivery, there was very little in terms of standardization of content display. This, coupled with very limited layout and design options made for a very disorganized and “messy” web experience. In response to this, Dave Raggett helped to standardize the &lt;table&gt; tag as a way of creating predictable layout grids for HTML web pages. This led to a series of important changes in the practice of webpage design and layout. Many usability specialists (Jakob Nielsen among them) helped to refine the standards of web page layout and content structure. CSS began to rise and was deeply influenced by the use of &lt;table&gt; as a layout tool for predictability in design. CSS afforded many new possibilities for web pages to focus on type the way printed material did, but it undermined HTML tables’ “one-size-fits-all” appeal of browser rendering predictability.</p>
+
+            <p>In her 2007 publication <em>DESIGN HISTORY OF THE WWW.: WEBSITE DEVELOPMENT FROM THE PERSPECTIVE OF GENRE AND STYLE THEORY</em>, Ida Engholm of the Danish Center for Design Research offers a framework in terms of <strong>genre</strong> and <strong>style</strong> as classifications for different stages in the history of web design. Genre, as Engholm defines it in the context of web design, is "a stabilizing, convention-based 'framework' for website design that connects senders and recipients in a joint agreement concerning development and use" (230). This definition and method of classification is the lens through which we should observe and understand responsive design.</p>
+
+            <p>With the introduction of the World Wide Web, visual manipulation of information accessed on the internet was extraordinarily limited (219). However, toward the early to mid-1900s, new developers began taking an interest in web design: individuals with backgrounds in print-based graphic design agencies or software interface design. She notes that "the first graphically oriented publications showed that designers' interest in the internet stemmed from the increasing technical potential for managing visual appearance and layout" (221). Graphic designers led this "professionalization" of the web, where modernist design principles influenced the development of visual, interactive websites that imitated print layouts and styling.</p>
+
+        </div>
+    </section>
+
+<!--
+    <section class="topic" id="rhetorical-reframe">
+        <div class="content">
+
+            <h2>Cultural Influence on Design Evolution: The Rhetorical Reframe</h2>
+            
+            <p>Christina Haas, a professor of rhetoric, has some research that might help to shed some light on these growing pains. Her work grounded in Vygotskian theory and articulated through Bijkerian concepts on the relationships between old and new technologies and the transformative integration of computer tools in writing is foundational to the discipline, and I intend to build from her writings On the Relationship Between Old and New Technologies (1999) and Writing Technology: Studies on the Materiality of Literacy (1996) a theoretical framework by which to examine the historical progression of web publishing and responsive web design.</p>
+
+            <p>In 1999, Christina Haas wrote <em>On the Relationship Between Old and New Technologies</em>
+                <a href="#fn:2"></a> as an argument for the complication of our understanding of the relationship between these “old” and “new” technologies; in it she argues that the commonly referenced linear model of the progression of technology oversimplifies a complex system in which old and new technologies coexist and influence one another in nuanced ways in response to human and cultural influences. She augments a previous publication, <em>Writing Technology: Studies on the Materiality of Literacy</em> (1996), in which she makes the claim that "Computer writing systems, like all writing tools, work one way and not another because of institutional history and politics, underlying theories of technology and writing, and human decision making within a social context" (140). Her discussion is sprung from Vygotsky's notion of <strong>technological mediation</strong> which affirms that changing technologies are not simply a linear progression of tools; but that they change with individual and cultural social practices as well as explicit human design decisions.</p>
+
+            <p>To examine writing and literacy, Haas also employs Vygosky's <strong>historical-genetic method</strong>—a method of contextual examination that injects some phenomenon into its unique historical context to provide deeper understanding of its evolution—and expands its application to include technology. Haas explores this idea more thoroughly, drawing upon several concepts from Bijker's theory of sociotechnical change<a href="#fn:3"></a> to understand both the constant and changing natures of technology as they relate to societal influence. One of these Bijkerian concepts, and the one I will be using to address the shift to responsive web design in particular, is that of <strong>contingency and constraint</strong>.
+
+                <h3>contingency and constraint</h3>
+
+                <blockquote>...decisions about technology are always partial and contingent—there might have been (and there may yet be) another choice. Yet, decisions about technology, whether in development or in use, are not boundless: they are constrained by the historical, material, and cultural circumstances surrounding them (Haas).</blockquote>
+
+                <p><strong>Contingency</strong>, according to Bijker, is the idea that change is <em>dependent</em> on external factors; that is, human design decisions, whether arbitrarily or intentionally, alter the course of technological change. <strong>Constraint</strong> is the idea that change is <em>limited</em> by external factors as well; material, cultural, and social bounds impose restrictions upon technological change. Haas gives the example of the QWERTY keyboard, a recognized constant in computer-based technology. QWERTY was a contingent human design decision, one of many possible text input methods for computers. For reasons beyond the scope of this study, QWERTY became the standard. Now, QWERTY remains the standard for computer input; so strong a conceptual model and embodied "frame of reference" constrain it to cultural, societal, and historic artifacts.</p>
+
+                <p>Computer technologies (and writing technologies in general) are, by nature, material conventions and therefore the product of social constructs and human design decisions. To understand computers as writing tools and their designs, we must see them as tools with histories; that is, they are built upon layers of other writing technologies (alphabets, writing and logic systems, even the physical manifestations of writing) and they are the product of conscious human design decisions (Haas 139). This follows the Vygotskian assertion that tools and technologies are not created, but rather culturally and socially "appropriated" (138) and evolved.</p>
+
+                <p>These premises set us up with a proper framework within which to examine change as it relates to responsive web design. What are the "predecessors" of web design, and how did they influence the development of media queries? What social and cultural constructs were (and are) surrounding the discussion of media queries and responsive web design? What issues of socioetechnical change did the development of media queries embody, and what contentions did it address and/or stir? In the following sections I will reframe modern responsive web design and the development of media queries as components of changing social practices contingent upon human design decisions, and moulded by practical constraints.</p>
+
+
+        </div>
+    </section>
+-->
+
+    <section class="topic" id="history-lesson">
+        <div class="content">
+            <h2>Historical Contentions: Nothing New</h2>
+
+            <blockquote>What I sense is a real tension between the web as we know it, and the web as it would be. It’s the tension between an existing medium, the printed page, and its child, the web. And it’s time to really understand the relationship between the parent and the child, and to let the child go its own way in the world. –John Allsopp</blockquote>
+
+            <p>Though responsive design is a recent development, the issues it addresses are not. Issues regarding the way designer control has translated from print forms to the web have existed for as long as visual styling has been a concern in online digital mediums at all.</p>
+            
+            <h3>The failure of print-syle uniformity</h3>
+
+            <p>In 1994, Håkon W Lie<a href="#fn:10"></a> published <em>Cascading HTML style sheets—a proposal</em><a href="#fn:5"></a>, an official document intended to "establish guiding principles and propose a level of functionality for HTML style sheets." Up to this point, styling on the web was largely limited and was of little to no use for designers; application of style sheets that altered colors and fonts was all a client-side process, meaning that styles were applied by browsers and HTML documents had no influence over their own presentation.</p>
+            
+            <p>Lie explains early in the proposal that the lack of control of presentation had been a "source of much frustration among professions that are used to be in control of paper-based publishing." He recognized the importance of the designer's ability to dictate some level of control over document presentation. However, Lie also said that his proposed style sheets should be able to "provide logic to make presentation decisions based on the user's environment; e.g. the size of the screen or the current date." This presents a new way of designing: writing rules in such a way that the publisher has some leverage over his content's presentation; but where the user still has some sense of control</p>
+
+            <p>Though much of the proposal is unspecific to the idea of media queries or responsive content presentation, Lie says in a section titled "Limitations" that "there should be a way of adding and subtracting style sheets from within the document." This is an idea that would later translate into CSS media queries: ways of conditionally applying styling rules to a document based on device characteristics. This is a very tangible concern that Lie recognized; not all styles written by the designer would optimally suit all screens or users. The uniformity standards and limitations of print no longer applied to the web, and Lie sought to break such constraints with what would become the foundation of responsive design.</p>
+
+            <p>This clearly outlines the exigence that Lie recognized as a result of the state of technology as it related to visual communications practices. It illustrates Bijker's contingency concept in that there was a clear need for an evolutionary tool that would adapt to new electronic information distribution mediums and the affordances of the web, but there was no single clear solution. This proposal was Lie's first attempt at addressing this disturbance in the waters of current web design practices.</p>       
+            
+            <p>Lie saw the trajectory of the web and began working on what would soon become the building blocks to a solution.</p>
+
+            <p>When CSS was officially declared a standard development and its second iteration was approved in 1998, CSS2<a href="#fn:6"></a> introduced media-specific stylesheets that allowed for the selective loading of cascading styles based on the <strong>media type</strong> of the receiving device; this meant that styles could be altered according to how content was being displayed: "on the screen, on paper, with a speech synthesizer, with a braille device, etc."</p>
+
+            <p>The inclusion of media types and media-dependent styles indeed addressed the different types of devices that would be used to display content, but Lie wasn't satisfied. Developers had no tools to limit the scope of styles within a particular type, and therefore media types did not solve the problem of adding and subtracting specific styles from documents. Along with Tantek Çelik of Microsoft, Lie set out officially recommend <strong>media queries</strong> as we know them today, the building blocks of responsive web design.</p>
+
+            <p>Lie began a working draft <a href="#fn:7"></a> of his proposal in 2001, and officially submitted it in July of 2002. Lie says of his proposal:</p>
+            
+            <blockquote>HTML4 and CSS2 currently support media-dependent style sheets tailored for different media types. For example, a document may use sans-serif fonts when displayed on a screen and serif fonts when printed. "Screen" and "print" are two of media types that have been defined. Media Queries extend the functionality of media types by allowing more precise labeling of style sheets.
+                <br>
+                <br>A Media Query consists of a media type and one or more expressions to limit the scope of style sheets. Among the media features that can be used in media queries are "width", "height", and "color". By using Media Queries, presentations can be tailored to a specific range of output devices without changing the content itself.</blockquote>
+
+            <p>Media queries would determine a device's <em>capabilities</em>, rather than just its type. Device and browser width, height, aspect ratio, and color/monochrome displays could all be considered in restricting or augmenting certain styles to optimize static, reusable HTML content. This distinction was critically important due to the chasmic divide between desktop browser technology and the mobile internet.</p>
+
+            <p>Lie was making an important observation here: though the device landscape was limited, Lie was able to project growth of internet-capable devices into the near future and recognized the lessening certainty of uniform document styling on the web.</p>
+                
+                <p>However, at the time, the ecology of devices used to access the internet was not nearly as prominent and robust as we recognize it today. Lie's proposal became a point of contention and subject of critical eyes.</p>
+
+            <h3>Declarative, not imperative: feedback on media queries</h3>
+
+            <p>From the get-go, Lie recognized the problem posed by the new (though limited at the time) advent of mobile web browsers:</p>
+
+            <blockquote>The introduction of mobile web devices with smaller screens poses a presentation problem. The two-dimensional table-based layout of a common web page does not scale well onto a smaller screen. Using Media Queries, the style sheet can use a table-based layout on a large screen, and a block-based layout on a small screen. The content will be the same, but a few lines in the style sheet will be different, and the right one will automatically be selected.</blockquote>
+
+            <p>Shortly after the recommendation was published, Lie began receiving email messages <a href="#fn:8"></a> from George Lund and Lachlan Cannon regarding the practicality and real-world implementation of media queries. Skeptical of the value of media queries in the presence of JavaScript and media types that addressed similar issues, they were critical of a new recommendation. Lend even acknowledged "...authors'... (misguided) attempts at pixel-perfect control in CSS" and said that media queries wouldn't solve the issue of the designers' desire for control. This illustrates one of the difficulties that inherently exist in the course of sociotechnical change: there is no singular, clear answer or objective path for technological advancement. Rather, change is often contingent upon human design decisions and can be widely contested and disputed among pioneers with different backgrounds, knowledge, skill sets and values. Lie clearly recognized this, however, and simply reiterated his commitment to reusable, device-independent HTML content:</p>
+
+            <blockquote>In general, I believe a declarative solution is better than an imperative solution.... I see the horrors of "dynamic HTML" on the web everyday and don't want to condemn authors into [JavaScript] for wanting to reuse content on many devices.</blockquote>
+
+            <p>Here, Lie suggests the importance of developing solutions for the sake of adherence to social norms and practices for evolution, rather than simply dictating how users should be accessing information through the web. He values the subjective nature of contingent design decisions and seizes the opportunity to address a problem before it becomes a technological constraint in and of itself.</p>
+
+            <p>As I have demonstrated, there was clearly a problem to be addressed in the space of web design due to the emergence of mobile technology and, consequently, fragmentation of device and screen ecologies. Designers who had previously turned to tried-and-true print practices as a way of establishing uniformity across devices were unable to provide usable, apt user experiences that accomplished what the web was capable of. In the early workings of Håkon W Lie, we see a thought pattern that recognizes the need for narrower criteria by which to identify device characteristics <em>and</em> capabilities such that proper styling and presentation can be applied independent of the user's means of access.</p>
+            
+        </div>
+    </section>
+
+    <section class="topic" id="put-together">
+        <div class="callout">
+            <div class="content">
+                "When a new medium borrows from an existing one, some of what it borrows makes sense, but much of the borrowing is thoughtless, “ritual,” and often constrains the new medium. Over time, the new medium develops its own conventions, throwing off existing conventions that don’t make sense."
+                <br>
+                <br><span class="name">–John Allsopp</span>
+            </div>
+        </div>
+        <div class="content">
+
+            <h2>Mobile Technology Turns the Corner</h2>
+            
+            <p>Now that I have established the historical exigence and contentions surrounding web design practices and standards, I will examine the transformation in mobile technologies that have allowed the web to move past the constraints of print imitation and into an exploratory period of responsive web design, and I will offer a framwork of thought processes in web design to address these issues in mobile web usability.</p>
+            
+            <p>By the very early 2000s, the mobile internet was coming to fruition; WAP (Wireless Application Protocol) technologies that allowed mobile phones to access internet content were beginning to see implementation. However, mobile WAP browsers were painfully limited in being able to access and display content; small screens and underpowered hardware and connections were a usability nightmare. Jakob Nielsen wrote an article in 2000<a href="#fn:11"></a> about the current state of mobile internet addressing some very relevant concerns. He called designers to "skip the current generation" and instead to wait for mobile internet in its revised forms. He predicted a future in which mobile devices would indeed be usable internet browsing devices.</p>
+            
+            <p>Nielsen identified the primary implication of low-usability WAP devices: the end of "design once, display anywhere." Since WAP browsers were so functionally limited, the only viable way of circumventing their weaknesses and regaining some level of usability was to develop WAP-optimized services and content. Nielsen called it a "sad" conclusion—it was expensive and not worth the effort. Nielsen also offered an important pillar of web design: "Much of the early success of the Web was due to the simplicity of development where you could design a single website and have it work across platforms." This recognized, fundamental principle of the web ruled out any possibility that current mobile internet technologies were ready for mainstream standardization.</p>
+            
+            <p>It was shortly after this article that Lie's initial proposal for media queries (as the building blocks of responsive design) was published in 2002. After wrestling with contingency, constraints, and a good deal of contention, the W3C deemed media queries operable and implementable in 2007, and five years later, in 2012, they were officially included with the CSS3 Recommendation <a href="#fn:9"></a>. Part of the reason it took so long—nearly two decades—for media queries to reach a standardized state has to do with the technological affordances and <em>constraints</em> at the time. The shift did not happen until the mid to late 2000s.</p>
+
+            <p>At the time of the first proposal, browser support for media queries was barely existent (if at all) and therefore not practically possible to implement. And, as covered, mobile technologies were not capable of providing a usable browsing experience; there was no immediate application of media queries that could effectively use them as intended. However, Two things happened: mobile technology was revolutionized, and browser support (mobile and desktop) both gained traction.</p>
+
+            <p>In 2009, Jakob Nielsen revisited his examination mobile browsing technology. Though he remained unimpressed with the state of the mobile internet, he offered some interesting parallels and observations regarding how the mobile internet compared with early implementations of the desktop web: "Mobile Web 2009 = Desktop Web 1998." By this, Nielsen means that technological advancements in the mobile web are at a turning point similar to the turn of the millennium for desktop web browsing. New affordances in device technology and browser capabilities (with the advent of the iPhone) were finally worth critical examination and had potential as internet devices. The iPhone "pioneered a breakthrough" in mobile internet device technology that finally allowed some of the early ideas of Lie, such as media queries and device-independed document design, to manifest. </p>
+
+            <p>Lie recognized the importance of device-independent information design on the web, and developed the idea of media-specific style sheets as a way to afford designers the control available to them in the print medium while also addressing the issue of device uncertainty and the rising capability of mobile web browsers. The Lie proposal for CSS in 1994 illustrates some of the tangible concerns in web design and publishing, noting the need to be able to adjust to the user, and for the publisher/writer to be able to leverage the capabilities of the web in such a way that he has some semblance of control.</p>
+        </div>
+    </section>
+    
+    <section class="topic">
+        <div class="content">
+            <h2>A Mobile Manifesto</h2>
+            
+            <p>Today, there are many different browsers and models of mobile devices; the designer can no longer design for a standardized set of screens. Responsive design is an answer to the changing landscape of devices to address issues of accessibility and new demographics; they are implemented because designers and developers now realize that while the web may have evolved from print, there are certain characteristics that are no longer imposed constraints or limitations. The desktop and desktop browsers evolved in such a way that designers were able to impose a certain level of control and uniformity to web presentation by imitating print practices. Soon thereafter, Håkon W Lie recognized the shifting landscape of web technologies and set into motion new ideas that would address issues of accessibility. Similarly, mobile devices today introduce a new set of technological affordances for which the traditional model of desktop publishing is not optimized. Thus, responsive design has proven to be a declarative and necessary shift in web accessibility, usability, and information design and delivery.</p>
+
+            <p>Jakon Nielsen said in 2009 that "Although devices will get better, the big advances must come from websites." The mediational means by which users are interacting with and shaping the web are changing, and our practices of web design and implementation of tools like responsive design are necessary components to sociotechnical change. Designers and developers should embrace the mutability of the web and the new affordances of advanced mobile technology. The evolution of design has dictated a shift away from the traditional desktop model and away from print practices as they translate to the web. Responsive design is not simply a new trend or fad in web design; rather, it is a complex methodology of web design that addresses issues of designer control and web usability that have pervaded the internet space since it became comercially available. Mobile technologies are still in their early stages, and responsive design has yet to realize its true potential as a tool to address long-standing issues in web usability.</p>
+
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="content">
+            <h2>More Info/Works Cited</h2>
+
+            <ul id="works-cited">
+                <li>Allsopp, John. "A Dao of Web Design." A List Apart The Full. N.p., 07 Apr. 2000. Web.</li>
+                <li>Budiu, Raluca. "Nielsen Norman Group." The State of Mobile User Experience. 22 Mar. 2015. Web.</li>
+                <li>Nielsen, Jakob. "Nielsen Norman Group." Mobile Web 2009 = Desktop Web 1998. 17 Feb. 2009. Web.</li>
+                <li>Nielsen, Jakob. "Nielsen Norman Group." WAP Backlash. 9 July 2009. Web.</li>
+                <li>Lie, Håkon W. "Cascading HTML Style Sheets -- a Proposal." Cascading HTML Style Sheets. N.p., 10 Oct. 1994. Web.</li>
+                <li>McGrane, Karen. "The Mobile Content Mandate." Karenmcgrane.com. N.p., 13 Jan. 2014. Web.</li>
+                <li>"Media Queries Level 4." Media Queries Level 4. W3C, 26 Oct. 2015. Web.</li>
+                <li>"Media Queries." Media Queries. W3C, 19 June 2012. Web.</li>
+                <li>Media Queries." Media Queries. W3C, 8 July 2002. Web.</li>
+                <li>"Using Media Queries." Mozilla Developer Network. MDN, 17 Nov. 2015. Web.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="footnotes">
+        <ol>
+            <li class="footnote" id="fn:1">
+                <p>According to a <a href="http://www.pewinternet.org/2013/09/19/cell-phone-activities-2013/">study conducted in 2013</a>.</p>
+            </li>
+<!--
+            <li class="footnote" id="fn:2">
+                <p>Haas is currently <a href="https://cla.umn.edu/about/directory/profile/chaas">at the University of Minnesota</a>. She was working at Kent State University at the time.</p>
+            </li>
+            <li class="footnote" id="fn:3">
+                <p>See Bijker's <a href="https://mitpress.mit.edu/books/social-construction-technological-systems-0">book</a> on his theory.</p>
+            </li>
+-->
+            <li class="footnote" id="fn:4">
+                <p>There a <a href="http://mydevice.io/devices/">a lot</a> of different devices.</p>
+            </li>
+            <li class="footnote" id="fn:5">
+                <p><a href="http://www.w3.org/People/howcome/p/cascade.html">See the original</a></p>
+            </li>
+            <li class="footnote" id="fn:6">
+                <p><a href="http://www.w3.org/TR/REC-CSS2/media.html">See the original</a></p>
+            </li>
+            <li class="footnote" id="fn:7">
+                <p><a href="http://www.w3.org/TR/2002/CR-css3-mediaqueries-20020708/">See the original</a></p>
+            </li>
+            <li class="footnote" id="fn:8">
+                <p><a href="http://lists.w3.org/Archives/Public/www-style/2002Jul/0082.html">See the original thread</a></p>
+            </li>
+            <li class="footnote" id="fn:9">
+                <p><a href="http://www.w3.org/TR/2002/CR-css3-mediaqueries-20020708/">See the original</a></p>
+            </li>
+            <li class="footnote" id="fn:10">
+                <p><a href="">asdf</a>An employee at Opera and one of the primary innovators of the early web.</p>
+            </li>
+            <li class="footnote" id="fn:11">
+                <p>Jakob Nielsen is a well-known expert in usability research on the web. <a href="https://www.nngroup.com/articles/wap-backlash/">See the article</a></p>
+            </li>
+
+        </ol>
+    </div>
+
+</body>
+
+</html>
